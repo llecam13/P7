@@ -1,0 +1,111 @@
+Feature,description
+CODE_GENDER,Gender of the client
+AMT_CREDIT,Credit amount of the loan
+AMT_ANNUITY,Loan annuity
+AMT_GOODS_PRICE,For consumer loans it is the price of the goods for which the loan is given
+REGION_POPULATION_RELATIVE,Normalized population of region where client lives (higher number means the client lives in more populated region)
+DAYS_BIRTH,Client's age in days at the time of application
+DAYS_EMPLOYED,How many days before the application the person started current employment
+DAYS_REGISTRATION,How many days before the application did client change his registration
+DAYS_ID_PUBLISH,How many days before the application did client change the identity document with which he applied for the loan
+OWN_CAR_AGE,Age of client's car
+REGION_RATING_CLIENT,"Our rating of the region where client lives (1,2,3)"
+REGION_RATING_CLIENT_W_CITY,"Our rating of the region where client lives with taking city into account (1,2,3)"
+EXT_SOURCE_1,Normalized score from external data source
+EXT_SOURCE_2,Normalized score from external data source
+EXT_SOURCE_3,Normalized score from external data source
+FLOORSMAX_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+LIVINGAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+DEF_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 30 DPD (days past due) 
+DAYS_LAST_PHONE_CHANGE,How many days before application did client change phone
+FLAG_DOCUMENT_3,Did client provide document 3
+NAME_CONTRACT_TYPE_Cashloans,Identification if loan is cash or revolving
+NAME_INCOME_TYPE_Stateservant,"Clients income type (businessman, working, maternity leave,â€¦)"
+NAME_INCOME_TYPE_Working,"Clients income type (businessman, working, maternity leave,â€¦)"
+NAME_EDUCATION_TYPE_Highereducation,Level of highest education the client achieved
+NAME_EDUCATION_TYPE_Secondarysecondaryspecial,Level of highest education the client achieved
+NAME_FAMILY_STATUS_Married,Family status of the client
+OCCUPATION_TYPE_Drivers,What kind of occupation does the client have
+ORGANIZATION_TYPE_Selfemployed,Type of organization where client works
+DAYS_EMPLOYED_PERC,Percentage How many days before the application the person started current employment
+ANNUITY_INCOME_PERC,Loan annuity / Income of the client
+PAYMENT_RATE,Loan annuity / Credit amount of the loan 
+BURO_DAYS_CREDIT_MAX,How many days before current application did client apply for Credit Bureau credit
+BURO_DAYS_CREDIT_MEAN,How many days before current application did client apply for Credit Bureau credit
+BURO_DAYS_CREDIT_ENDDATE_MAX,Remaining duration of CB credit (in days) at the time of application in Home Credit
+BURO_DAYS_CREDIT_ENDDATE_MEAN,Remaining duration of CB credit (in days) at the time of application in Home Credit
+BURO_AMT_CREDIT_MAX_OVERDUE_MEAN,Maximal amount overdue on the Credit Bureau credit so far (at application date of loan in our sample)
+BURO_AMT_CREDIT_SUM_MAX,Current credit amount for the Credit Bureau credit
+BURO_AMT_CREDIT_SUM_SUM,Current credit amount for the Credit Bureau credit
+BURO_AMT_CREDIT_SUM_DEBT_MEAN,Current debt on Credit Bureau credit
+BURO_AMT_CREDIT_SUM_DEBT_SUM,Current debt on Credit Bureau credit
+BURO_AMT_CREDIT_SUM_LIMIT_MEAN,Current credit limit of credit card reported in Credit Bureau
+BURO_CREDIT_ACTIVE_Active_MEAN,Status of the Credit Bureau (CB) reported credits
+BURO_CREDIT_ACTIVE_Closed_MEAN,Status of the Credit Bureau (CB) reported credits
+BURO_CREDIT_TYPE_Microloan_MEAN,"Type of Credit Bureau credit (Car, cash,...)"
+BURO_CREDIT_TYPE_Mortgage_MEAN,"Type of Credit Bureau credit (Car, cash,...)"
+ACTIVE_DAYS_CREDIT_MAX,How many days before current application did client apply for Credit Bureau credit
+ACTIVE_DAYS_CREDIT_ENDDATE_MIN,Remaining duration of CB credit (in days) at the time of application in Home Credit
+ACTIVE_DAYS_CREDIT_ENDDATE_MAX,Remaining duration of CB credit (in days) at the time of application in Home Credit
+ACTIVE_DAYS_CREDIT_ENDDATE_MEAN,Remaining duration of CB credit (in days) at the time of application in Home Credit
+ACTIVE_AMT_CREDIT_MAX_OVERDUE_MEAN,Current amount overdue on Credit Bureau credit
+ACTIVE_AMT_CREDIT_SUM_MAX,Max Current credit amount for the Credit Bureau credit
+ACTIVE_AMT_CREDIT_SUM_SUM,Sum Current credit amount for the Credit Bureau credit
+ACTIVE_AMT_CREDIT_SUM_DEBT_MAX,Max Current debt on Credit Bureau credit
+ACTIVE_AMT_CREDIT_SUM_DEBT_MEAN,Mean Current debt on Credit Bureau credit
+CLOSED_DAYS_CREDIT_MAX,Max How many days before current application did client apply for Credit Bureau credit
+CLOSED_DAYS_CREDIT_VAR,Variance How many days before current application did client apply for Credit Bureau credit
+CLOSED_DAYS_CREDIT_ENDDATE_MAX,Max Remaining duration of CB credit (in days) at the time of application in Home Credit
+CLOSED_AMT_CREDIT_SUM_MAX,Max Current credit amount for the Credit Bureau credit
+CLOSED_AMT_CREDIT_SUM_MEAN,Mean Current credit amount for the Credit Bureau credit
+CLOSED_AMT_CREDIT_SUM_SUM,Sum Current credit amount for the Credit Bureau credit
+PREV_AMT_ANNUITY_MEAN,Mean Annuity of previous application
+PREV_APP_CREDIT_PERC_MIN,"Min Percentage ( For how much credit did client ask on the previous application ) / ( Final credit amount on the previous application.) This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT "
+PREV_APP_CREDIT_PERC_MAX,"Max Percentage ( For how much credit did client ask on the previous application ) / ( Final credit amount on the previous application.) This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT "
+PREV_APP_CREDIT_PERC_MEAN,"Mean Percentage ( For how much credit did client ask on the previous application ) / ( Final credit amount on the previous application.) This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT "
+PREV_AMT_DOWN_PAYMENT_MAX,Max Down payment on the previous application
+PREV_AMT_DOWN_PAYMENT_MEAN,Mean Down payment on the previous application
+PREV_DAYS_DECISION_MEAN,Mean Relative to current application when was the decision about previous application made
+PREV_CNT_PAYMENT_MEAN,Term of previous credit at application of the previous application
+PREV_NAME_CONTRACT_STATUS_Approved_MEAN,"Contract status (approved, cancelled, ...) of previous application"
+PREV_NAME_CONTRACT_STATUS_Refused_MEAN,"Contract status (approved, cancelled, ...) of previous application"
+PREV_NAME_TYPE_SUITE_nan_MEAN,Who accompanied client when applying for the previous application
+PREV_NAME_CLIENT_TYPE_New_MEAN,Was the client old or new client when applying for the previous application
+PREV_NAME_PRODUCT_TYPE_walkin_MEAN,Was the previous application x-sell o walk-in
+PREV_NAME_SELLER_INDUSTRY_Connectivity_MEAN,The industry of the seller
+PREV_NAME_YIELD_GROUP_high_MEAN,Grouped interest rate into small medium and high of the previous application
+PREV_NAME_YIELD_GROUP_low_action_MEAN,Grouped interest rate into small medium and high of the previous application
+PREV_NAME_YIELD_GROUP_low_normal_MEAN,Grouped interest rate into small medium and high of the previous application
+PREV_PRODUCT_COMBINATION_CashXSelllow_MEAN,Detailed product combination of the previous application
+PREV_PRODUCT_COMBINATION_POSindustrywithinterest_MEAN,Detailed product combination of the previous application
+APPROVED_AMT_ANNUITY_MIN,Annuity of previous application
+APPROVED_AMT_ANNUITY_MAX,Annuity of previous application
+APPROVED_AMT_ANNUITY_MEAN,Annuity of previous application
+APPROVED_AMT_DOWN_PAYMENT_MAX,Down payment on the previous application
+APPROVED_DAYS_DECISION_MIN,Relative to current application when was the decision about previous application made
+APPROVED_CNT_PAYMENT_MEAN,Term of previous credit at application of the previous application
+APPROVED_CNT_PAYMENT_SUM,Term of previous credit at application of the previous application
+REFUSED_AMT_CREDIT_MIN,"Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT"
+REFUSED_APP_CREDIT_PERC_MIN,"Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT"
+REFUSED_DAYS_DECISION_MEAN,Relative to current application when was the decision about previous application made
+POS_MONTHS_BALANCE_MAX,"Month of balance relative to application date (-1 means the information to the freshest monthly snapshot, 0 means the information at application - often it will be the same as -1 as many banks are not updating the information to Credit Bureau regularly )"
+POS_MONTHS_BALANCE_SIZE,"Month of balance relative to application date (-1 means the information to the freshest monthly snapshot, 0 means the information at application - often it will be the same as -1 as many banks are not updating the information to Credit Bureau regularly )"
+POS_SK_DPD_DEF_MEAN,DPD during the month with tolerance (debts with low loan amounts are ignored) of the previous credit
+POS_NAME_CONTRACT_STATUS_Active_MEAN,Contract status during the month
+INSTAL_DPD_MEAN,Mean [When was the installments of previous credit paid actually (relative to application date of current loan)] - [When the installment of previous credit was supposed to be paid (relative to application date of current loan)]
+INSTAL_DBD_SUM,Somme [When the installment of previous credit was supposed to be paid (relative to application date of current loan) MINUS When was the installments of previous credit paid actually (relative to application date of current loan)]
+INSTAL_PAYMENT_PERC_MEAN,MEAN What the client actually paid on previous credit on this installment / What was the prescribed installment amount of previous credit on this installment 
+INSTAL_PAYMENT_PERC_SUM,SUM What the client actually paid on previous credit on this installment / What was the prescribed installment amount of previous credit on this installment 
+INSTAL_PAYMENT_DIFF_MAX,Max What was the prescribed installment amount of previous credit on this installment â€“ What the client actually paid on previous credit on this installment
+INSTAL_PAYMENT_DIFF_MEAN,Mean What was the prescribed installment amount of previous credit on this installment â€“ What the client actually paid on previous credit on this installment
+INSTAL_AMT_INSTALMENT_MAX,What was the prescribed installment amount of previous credit on this installment
+INSTAL_AMT_PAYMENT_MIN,What the client actually paid on previous credit on this installment
+INSTAL_AMT_PAYMENT_MAX,What the client actually paid on previous credit on this installment
+INSTAL_AMT_PAYMENT_MEAN,What the client actually paid on previous credit on this installment
+INSTAL_AMT_PAYMENT_SUM,What the client actually paid on previous credit on this installment
+INSTAL_DAYS_ENTRY_PAYMENT_MAX,When was the installments of previous credit paid actually (relative to application date of current loan)
+INSTAL_DAYS_ENTRY_PAYMENT_MEAN,When was the installments of previous credit paid actually (relative to application date of current loan)
+INSTAL_DAYS_ENTRY_PAYMENT_SUM,When was the installments of previous credit paid actually (relative to application date of current loan)
+CC_CNT_DRAWINGS_ATM_CURRENT_MEAN,Amount drawing at ATM during the month of the previous credit
+CC_CNT_DRAWINGS_CURRENT_MEAN,Mean Amount drawing during the month of the previous credit
+CC_CNT_DRAWINGS_CURRENT_VAR,VAR Amount drawing during the month of the previous credit
