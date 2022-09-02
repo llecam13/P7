@@ -4,9 +4,15 @@ Le projet consiste à construire un modèle de scoring qui donnera une prédicti
 un dashboard interactif à destination des gestionnaires de la relation client permettant d'interpréter les prédictions faites par le modèle
 et d’améliorer la connaissance client des chargés de relation client.
 
-Le repo contient : - le code du dashboard déployé
+Le repo contient :
+
+                   - le code du dashboard déployé
+
                    - le code de l'API déployé
-                   - les notebook, la note méthodologique et la présentation du traitement des données et de la construction du modèle machine learning de classification
+                   
+                   - les notebook, la note méthodologique et la présentation du traitement des données 
+                     et de la construction du modèle machine learning de classification
+                   
                    - requirements.txt et README.md
                    
 données kaggle : https://www.kaggle.com/competitions/home-credit-default-risk/data                   
@@ -18,9 +24,16 @@ URL dashboard streamlit déployé (streamlit share) : https://llecam13-dashboard
 
 URL API flask déployé (heroku) : https://llctest.herokuapp.com
 
-Outils techniques : - Python (pandas, numpy, matplotlib, scikit-learn, ...)
+Outils techniques : 
+
+                    - Python (pandas, numpy, matplotlib, scikit-learn, ...)
+
                     - Modèle XGBoost avec comparaison avec DummyClassifier, RandomForest, LightGBM et Logistic Regression
+                    
                     - Interprétation des résultats avec shap
+                    
                     - Flask et streamlit
+                    
                     - Déploiement heroku et streamlit cloud
+                    
                     - Format des données : csv, pandas dataframe, JSON
